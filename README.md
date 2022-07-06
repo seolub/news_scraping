@@ -3,7 +3,7 @@
 Author: Sergio Olalla 
 
 This program gives the user the ability to scrape news from El Pais for certain keywords that follow the following format:
-https://elpais.com/noticias/keyword. 
+https://elpais.com/noticias/<<keyword>>. 
 
 For example https://elpais.com/noticias/europa/
 
