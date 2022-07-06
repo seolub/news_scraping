@@ -21,7 +21,6 @@ The output of the information is stored in the folder "/data"
 
 1. Run bash install.sh in the top-level directory, this will install all required libraries in a virtual environment
 2. Enter the virtual environment with source news_scraping/bin/activate
-3. Launch the dash server with ipython3 larry_on_fire.py and click on the link displayed in the output
 
 ### Selecting Keyword
 
