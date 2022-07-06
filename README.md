@@ -17,15 +17,13 @@ The program retrieves the articles available and returns the following informati
 
 The output of the information is stored in the folder "/data"
 
-### Installing the Application
+### Installing the Requirements
 
-1. Run bash install.sh in the top-level directory, this will install all required libraries in a virtual environment
-2. Enter the virtual environment with source news_scraping/bin/activate
+1. Run bash install.sh in the top-level directory, this will install all required libraries
 
 ### Selecting Keyword
-
-1. Run `ipython3 scrape.py` in the top-level directory
-2. Enter a keyword in the command line 
-3. View the output of the program in `data/`
+1. Run `python3 scrape.py` in the top-level directory
+2. Enter the keyword of interest in the command line 
+3. View the output of the program in `data/`once the program has finished (it will take some time)
 
 
