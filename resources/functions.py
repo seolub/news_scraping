@@ -35,7 +35,7 @@ def get_all_paths(keyword):
     return paths
 
     
-def scrape_paths(paths):
+def scrape_paths(paths, keyword):
     '''
     For a list of paths, get articles information (date, title, author, date), 
     and get sentiment of text. Then export a csv file in the data folder
