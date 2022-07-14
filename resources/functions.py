@@ -6,14 +6,18 @@ import requests
 import regex as re
 import pandas as pd
 from pysentimiento import create_analyzer
+import json
 
 
-def get_all_paths(keyword):
+def get_all_paths(keyword, section):
     '''
     For a certain KEYWORD where el pais has the following structure:
-    "https://elpais.com/noticias/KEYWORD", extract all the article links (paths) of all pages.
+    "https://elpais.com/SECTION/KEYWORD", extract all the article links (paths) of all pages.
+
+    Section can be either "autor" or "noticias".
     '''
-    starting_url = "https://elpais.com/noticias/" + keyword
+
+    starting_url = "https://elpais.com/" + section + "/" + keyword
 
     paths = set()
     more_pages = True

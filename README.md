@@ -3,9 +3,9 @@
 Author: Sergio Olalla 
 
 This program gives the user the ability to scrape news from El Pais for certain keywords that follow the following format:
-https://elpais.com/noticias/<<keyword>>. 
+https://elpais.com/noticias/<<keyword>> or https://elpais.com/autor/<<keyword>>
 
-For example https://elpais.com/noticias/europa/
+For example https://elpais.com/noticias/europa/ or https://elpais.com/autor/victor-lapuente-gine
 
 The program retrieves the articles available and returns the following information:
 - Date
